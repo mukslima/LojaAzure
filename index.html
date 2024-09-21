@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Projeto 2</title>
+  </head>
+  <body>
+    <!-- menu -->
+
+    <nav id="navbar">
+      <ul class="navbar-items flexbox-col">
+        <li class="navbar-logo flexbox-left">
+          <a class="navbar-item-inner flexbox">
+            <svg xmlns="https://alu-cek.com.br/web/wp-content/uploads/2016/09/logo-senai.fw_.png" id="Layer_1" data-name="Layer 1" viewBox="0 0 1438.88 1819.54">
+              <polygon points="925.79 318.48 830.56 0 183.51 1384.12 510.41 1178.46 925.79 318.48"/>
+              <polygon points="1438.88 1663.28 1126.35 948.08 111.98 1586.26 0 1819.54 1020.91 1250.57 1123.78 1471.02 783.64 1663.28 1438.88 1663.28"/>
+            </svg>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+            <span class="link-text">Buscar</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="home-outline"></ion-icon>
+            </div>
+            <span class="link-text">Principal</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="folder-open-outline"></ion-icon>
+            </div>
+            <span class="link-text">Produtos</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="pie-chart-outline"></ion-icon>
+            </div>
+            <span class="link-text">Perfil</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="people-outline"></ion-icon>
+            </div>
+            <span class="link-text">Quem é nós?</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="chatbubbles-outline"></ion-icon>
+            </div>
+            <span class="link-text">Suporte</span>
+          </a>
+        </li>
+        <li class="navbar-item flexbox-left">
+          <a class="navbar-item-inner flexbox-left">
+            <div class="navbar-item-inner-icon-wrapper flexbox">
+              <ion-icon name="settings-outline"></ion-icon>
+            </div>
+            <span class="link-text">Configuração</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- fim menu -->
+
+    <!-- main -->
+
+    <main id="main" class="flexbox-col">
+      <h2>Bem vindo a Loja Azure!</h2>
+      <p>Quer comprar sem sair de casa e sem perder tempo com filas? Acesse a loja virtual da Azure e compre todos os nossos produtos em poucos cliques! Aproveite também nossas promoções e cupons de descontos exclusivos.</p>
+    </main>
+
+    <!-- inicio card´s -->
+    <div class="titleCard">
+      <p>Seleção de Ofertas para você!</p>
+    </div>
+
+    <div class="cardMain">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/smartphone-samsung-galaxy-s23-256gb-preto-5g-8gb-ram-61-cam-tripla-selfie-12mp/magazineluiza/232854100/e9fd12e9a66f2797bce34c5169369937.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          
+<button type="button" class="btnCard btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Compre agora
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/500x500/notebook-samsung-galaxy-book4-intel-core-i3-8gb-ram-ssd-256gb-156-full-hd-windows-11-np750xgj-kg5br/magazineluiza/238407300/b9351a5d8902e673e7ba45d4d13acc8d.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/smartphone-samsung-galaxy-a05-128gb-preto-4g-octa-core-4gb-ram-67-cam-dupla-selfie-8mp/magazineluiza/238036500/5be0fccafef98e0b5a4c3c65fa1f7c8b.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/fritadeira-eletrica-sem-oleo-air-fryer-mondial-forno-oven-afon-12l-bi-preta-12l/magazineluiza/237219400/1c2f2ed761bb1cd0ce2deb6e922a5a0d.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/fritadeira-eletrica-sem-oleo-air-fryer-mondial-family-afn-40-bi-preto-4l-com-timer/magazineluiza/228887100/c8c3b47783b851f54be2594719871282.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- inicio card´s -->
+    <div class="titleCard subtitleCard">
+      <p>Confira as melhores ofertas da semana</p>
+    </div>
+
+    <div class="cardMain">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/notebook-compaq-presario-427-intel-pentium-n3700-4gb-240gb-ssd-141-linux/magazineluiza/233508700/836857a8ee8cd7586e7ba6c15c263757.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/apple-iphone-14-128gb-estelar-61-12mp-ios-5g/magazineluiza/237184100/b208242666e673bb1cfff75f61667947.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 2</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/iphone-12-apple-64gb-branco-tela-61-12mp-ios/magazineluiza/231147400/28364f93a9923ece3bc1544b117a25a2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 3</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/aspirador-de-po-2-em-1-mondial-1100w-turbo-cycle-ap-36-vermelho-e-preto/magazineluiza/237623200/df539ee768893e276bec7f2d9ba3acc2.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://a-static.mlcdn.com.br/280x210/escova-secadora-mondial-es-02-bi-1200w-3-niveis-de-temperatura-tourmaline-ion/magazineluiza/237252900/0294412806461279d96287bf23ef0ce4.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Produto 4</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary btnCard">Compre agora</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Terceiro Cards //Marcos AND Lima-->
+    <div class="cardspecial">
+    <figure>
+      <img src="https://img.freepik.com/fotos-premium/dispositivos-de-alta-tecnologia-em-superficie-amarela-fotografia-de-produtos-vibrantes_976564-6651.jpg" alt="Mountains">
+      <figcaption>Eletronicos</figcaption>
+  </figure>
+  <figure style="--c:#fff5">
+      <img src="https://img.freepik.com/fotos-premium/dispositivos-de-alta-tecnologia-em-superficie-amarela-fotografia-de-produtos-vibrantes_976564-6671.jpg" alt="Mountains">
+      <figcaption>Redes</figcaption>
+  </figure>
+</div>
+    <!-- footer Marcos AND Lima-->
+    <footer>
+      <div class="container-footer">
+          <div class="row-footer">
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Empresa</h4>
+                  <ul>
+                      <li><a href="#"> Quem somos </a></li>
+                      <li><a href=""> nossos serviços </a></li>
+                      <li><a href=""> política de privacidade </a></li>
+                      <li><a href=""> programa de afiliados</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Obter ajuda</h4>
+                  <ul>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Transporte</a></li>
+                      <li><a href="#">devoluções</a></li>
+                      <li><a href="#">Status De Pedido</a></li>
+                      <li><a href="#">Opções De Pagamento</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Loja online</h4>
+                  <ul>
+                      <li><a href="#">Eletronicos</a></li>
+                      <li><a href="#">Endereço</a></li>
+                  </ul>
+              </div>
+              <!--end footer col-->
+              <!-- footer col-->
+              <div class="footer-col">
+                  <h4>Se subescreva!</h4>
+                  <div class="form-sub">
+                      <form>
+                          <input type="email" placeholder="Digite o seu e-mail" required>
+                          <button>subscrever</button>
+                      </form>
+                  </div>
+
+                  <div class="medias-socias">
+                      <a href="#"> <i class="fa fa-facebook"></i> </a>
+                      <a href="#"> <i class="fa fa-instagram"></i> </a>
+                      <a href="#"> <i class="fa fa-twitter"></i> </a>
+                      <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                  </div>
+
+              </div>
+              <!--end footer col-->
+          </div>
+      </div>
+  </footer>
+
+    <!-- footer -->
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
