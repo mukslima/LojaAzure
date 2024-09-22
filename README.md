@@ -1,7 +1,11 @@
-# LojaAzure
-Senai CSS - Avaliação Final 
+# Loja Azure
+## Senai CSS - Avaliação Final 
 
-O que alteração foi feita?
-Mudei a menu e footer, adicionei 2 cards com animação e removi a carrosel pra deixar a mais minimalismo, manter só a cards produtos.
+### Alterações Realizadas
+
+- Menu e Footer: Realizei uma reformulação no menu e no rodapé.
+- Cards: Adicionei dois cards com animação.
+- Carrossel: Removi o carrossel para adotar uma abordagem mais minimalista, deixando apenas a seção "Sobre a Loja" e os cards de produtos.
+
 
 Aluno: Marcos Antonio Nascimento de Lima
